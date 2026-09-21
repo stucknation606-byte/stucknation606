@@ -110,7 +110,8 @@
     .hero {
       min-height: 88vh;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      padding-top: 45px;
       position: relative;
       overflow: hidden;
       background:
@@ -204,6 +205,10 @@
       align-items: center;
       gap: 25px;
     }
+    .recovery-contacts {
+    display: flex;
+    gap: 12px;
+}
 
     .emergency h2 {
       font-size: clamp(1.5rem, 3vw, 2.2rem);
@@ -643,9 +648,14 @@
         <p>Stuck, broken down or need help getting your rig out? Give us a call.</p>
       </div>
 
-      <a class="call-button" href="tel:6062714977">
-        Ryan: 606-271-4977
-      </a>
+      <div class="recovery-contacts">
+     <a class="call-button" href="tel:6062714977">
+    Rigit: 606-271-4977
+</a>
+
+<a class="call-button" href="tel:7655240492">
+    Brandon: 765-524-0492
+</a>
     </div>
   </div>
 
